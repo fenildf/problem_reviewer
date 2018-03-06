@@ -1,0 +1,61 @@
+2018-03-04 21:46:23.471205
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 28, in csv_to_json
+    content['year'] = int(line[YEAR])
+ValueError: invalid literal for int() with base 10: ''
+# Error is in line of data: 23
+
+2018-03-04 21:47:21.518923
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 28, in csv_to_json
+    content['year'] = int(line[YEAR])
+ValueError: invalid literal for int() with base 10: ''
+# Error is in line of data: 23
+
+2018-03-04 21:48:46.343599
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 28, in csv_to_json
+    content['year'] = int(line[YEAR])
+ValueError: invalid literal for int() with base 10: ''
+# Error is in line of data: 23
+
+2018-03-04 22:02:55.634922
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 28, in csv_to_json
+    content['year'] = int(line[YEAR])
+ValueError: invalid literal for int() with base 10: ''
+# Error is in line of data: 23
+
+2018-03-04 22:04:40.609601
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 28, in csv_to_json
+    content['year'] = int(line[YEAR])
+IndexError: list index out of range
+# Error is in line of data: 1
+
+2018-03-04 22:06:29.232763
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 29, in csv_to_json
+    content['year'] = int(line[YEAR])
+IndexError: list index out of range
+# Error is in line of data: 1
+
+2018-03-04 22:10:25.623733
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 33, in csv_to_json
+    content['times'] = int(line[TIMES])
+ValueError: invalid literal for int() with base 10: '李某与黄某未婚同居生子，取名黄小某，后来李某和王某分手分别建立了家庭，黄小某长大后进入演艺界成为一名当红歌星，星星报社专职记者吴某知这一消息后撰写文章将黄小某是私生子的事实公开报道，给黄小某造成了极大的痛苦，下列哪些选项是正确的'
+# Error is in line of data: 23
+
+2018-03-04 23:11:12.281272
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 11, in csv_to_json
+    with open(CSV_FILE) as cf:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data.csv'
+
+2018-03-05 22:47:53.644099
+Traceback (most recent call last):
+  File "modules\csv_to_json.py", line 11, in csv_to_json
+    with open(CSV_FILE) as cf:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/data.csv'
+
